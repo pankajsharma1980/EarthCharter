@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="144" viewBox="0 0 48 144">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="48" height="48" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-arrowBottom">
+      <rect width="48" height="144"/>
+    </clipPath>
+  </defs>
+  <g id="arrowBottom" clip-path="url(#clip-arrowBottom)">
+    <g id="arrowBottom_1_" data-name="arrowBottom (1)">
+      <g id="Group_1" data-name="Group 1" clip-path="url(#clip-path)">
+        <path id="Path_1" data-name="Path 1" d="M31.028,19.573,19.975,8.52l-4.426,4.428L26.6,24,15.549,35.052l4.426,4.427L31.028,28.427,35.455,24Z" transform="translate(48) rotate(90)" fill="#fff"/>
+      </g>
+      <g id="Group_2" data-name="Group 2" transform="translate(0 48)" clip-path="url(#clip-path)">
+        <path id="Path_2" data-name="Path 2" d="M31.028,19.573,19.975,8.52l-4.426,4.428L26.6,24,15.549,35.052l4.426,4.427L31.028,28.427,35.455,24Z" transform="translate(48) rotate(90)" fill="#fff"/>
+      </g>
+      <g id="Group_3" data-name="Group 3" transform="translate(0 96)" clip-path="url(#clip-path)">
+        <path id="Path_3" data-name="Path 3" d="M31.028,19.573,19.975,8.52l-4.426,4.428L26.6,24,15.549,35.052l4.426,4.427L31.028,28.427,35.455,24Z" transform="translate(48) rotate(90)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

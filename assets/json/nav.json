@@ -1,0 +1,49 @@
+{
+    "nav": [
+      {
+        "menufirst": {
+          "title": "About Contributions",
+          "submenu": {
+            "item1": "Contributions to the Well-being of our Planet",
+            "item2": "Index of Contributions to Planetary Well-being (ICP)",
+            "item3": "Improving Our Contributions to Our Planet",
+            "item4": "Improve Our Understanding about Contributions"
+
+          }
+        },
+        "menusecond": {
+            "title": "Index of Contribution",
+            "submenu": {
+              "item1": "Index of Contributions to the Well-being of our Planet",
+              "item2": "Index of Respect and Care for the Community of Life",
+              "item3": "Index of Respect and Care for Ecological Integrity",
+              "item4": "Index of Respect and Care for Social and Economic Justice",
+              "item5": "Index of Respect and Care for Democracy Nonviolence and Peace"
+  
+            }
+          },
+          "menuthird": {
+            "title": "Improving Contributions",
+            "submenu": {
+              "item1": "To the Well-being of our Planet",
+              "item2": "Through Respect and Care for the Community of Life",
+              "item3": "Through Respect and Care for Ecological Integrity",
+              "item4": "Through Respect and Care for Social and Economic Justice",
+              "item5": "Through Respect and Care for Democracy Nonviolence and Peace"
+            }
+          },
+
+          "menufour": {
+            "title": "Improve Our Understanding About Contributions",
+            "submenu": {
+              "item1": "To the Well-being of our Planet",
+              "item2": "To Respect and Care for the Community of Life",
+              "item3": "To Respect and Care for Ecological Integrity",
+              "item4": "To Respect and Care for Social and Economic Justice",
+              "item5": "To Respect and Care for Democracy Nonviolence and Peace"
+            }
+          }
+
+      }
+    ]
+  }
