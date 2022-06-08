@@ -1,0 +1,130 @@
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+.footer {
+    background: #4a5562;
+    padding: 0 0 30px 0;
+    color: #fff;
+    font-size: 14px;
+    font-family: "roboto_regular";
+}
+
+footer .footer-top {
+    background: #515d6a;
+    padding: 30px 0 30px 0;
+}
+
+.footer-info h3 {
+    color: #fff;
+}
+
+footer .footer-top .footer-info {
+    margin-bottom: 30px;
+}
+
+footer .footer-top .footer-info h3 {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+}
+
+footer .footer-top .footer-info p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+footer .footer-top .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 4px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+footer .footer-top .social-links a:hover {
+    background: #5d8eff;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .footer-top h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+footer .footer-top .footer-links {
+    margin-bottom: 30px;
+}
+
+footer .footer-top .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer .footer-top .footer-links ul i {
+    padding-right: 2px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 18px;
+    line-height: 1;
+}
+
+footer .footer-top .footer-links ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+footer .footer-top .footer-links ul li:first-child {
+    padding-top: 0;
+}
+
+footer .footer-top .footer-links ul a {
+    color: rgba(255, 255, 255, 0.6);
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+}
+
+footer .footer-top .footer-links ul a:hover {
+    color: white;
+}
+
+
+/*Bottom to Top Scroll CSS */
+#topAnchor {
+    display: none;
+    position: fixed;
+    bottom: 35px;
+    right: 20px;
+    z-index: 99;
+    outline: none;
+    border: none;
+    width: 67px;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 14px 24px;
+    transition: 0.5s;
+    color: #fff;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    background: #6e6e6e;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  

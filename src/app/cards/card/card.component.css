@@ -1,0 +1,115 @@
+.thumbnail h3 {
+    font-family: "roboto_bold";
+    font-size: 14px;
+
+}
+
+.card_container {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.card_container>.title {
+    font-family: "roboto_black";
+    font-size: 36px;
+    padding: 3vw;
+}
+
+.thumbnail {
+    display: block;
+    border-radius: 4px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+    cursor: pointer;
+    line-height: 20px;
+    padding-bottom: 1vw;
+}
+
+.thumbnail:hover {
+    /* transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06); */
+    -webkit-transform: scale(1.1) rotate(0deg);
+    transform: scale(1.1) rotate(0deg);
+    cursor:arrow;
+}
+
+.thumbnail .caption {
+    display: flex;
+    flex-direction: column;
+    padding: 9px;
+    color: #333;
+    max-height: 200px;
+    min-height: 150px;
+    height: 100%;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-family: 'roboto_medium';
+}
+
+/* .thumbnail .caption  p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+} */
+
+.thumbnail span {
+    padding: 2px 16px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.thumbnail h3 {
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.thumbnail p {
+    line-height: normal;
+    letter-spacing: normal;
+    font-family: "roboto_regular";
+}
+
+.thumbnail span a {
+    font-size: 12px;
+    font-family: 'roboto_bold';
+    text-decoration: none;
+}
+
+.summary {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+
+  .heading1 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  
+  /* .heading {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 150px;
+  } */
+
+@media (max-width: 768px) {
+    
+.thumbnail .caption {
+    display: flex;
+    flex-direction: column;
+    padding: 9px;
+    color: #333;
+    max-height: 150px;
+    min-height: 120px;
+    height: 100%;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-family: 'roboto_medium';
+}
+  }

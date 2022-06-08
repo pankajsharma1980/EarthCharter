@@ -1,0 +1,114 @@
+{
+        
+    "data": [
+        {
+            "x": [1, 1.75, 2.5],
+            "y": [1, 1, 1],
+            "type": "scatter",
+            "mode": "text",
+            "text":[
+                "A",
+                "A+B",
+                "B",
+                "B+D",
+                "D"
+            ],
+            "textfont": {
+                "color": "black",
+                "size": 18,
+                "family": "Arial"
+              }
+
+        }
+    ],
+
+
+    "layout": {
+        "title": {
+            "text": "Venn Diagram with Circle Shapes"
+        },
+        "width": 800,
+        "xaxis": {
+            "type": "linear",
+            "range": [
+                -0.0066016154865302275,
+                5.0106261542764425
+            ],
+            "title": {
+                "text": "x"
+            },
+            "showgrid": false,
+            "tickmode": "linear",
+            "zeroline": false,
+            "autorange": true,
+            "showticklabels": false
+        },
+        "yaxis": {
+            "type": "linear",
+            "range": [
+                -0.006801945858294669,
+                2.033781811630106
+            ],
+            "title": {
+                "text": "y"
+            },
+            "showgrid": false,
+            "tickmode": "linear",
+            "zeroline": false,
+            "autorange": true,
+            "showticklabels": false
+        },
+        "height": 500,
+        "margin": {
+            "b": 100,
+            "l": 20,
+            "r": 20
+        },
+        "shapes": [
+            {
+                "x0": 0,
+                "x1": 2,
+                "y0": 0,
+                "y1": 2,
+                "line": {
+                    "color": "blue"
+                },
+                "type": "circle",
+                "xref": "x",
+                "yref": "y",
+                "opacity": 0.3,
+                "fillcolor": "blue"
+            },
+            {
+                "x0": 1.5,
+                "x1": 3.5,
+                "y0": 0,
+                "y1": 2,
+                "line": {
+                    "color": "gray"
+                },
+                "type": "circle",
+                "xref": "x",
+                "yref": "y",
+                "opacity": 0.3,
+                "fillcolor": "rgb(183, 185, 75)"
+            },
+            {
+                "x0": 2.962937062664497,
+                "x1": 5.0040245387899125,
+                "y0": 0.030132620152245434,
+                "y1": 2.0269798657718114,
+                "line": {
+                    "color": "#444444",
+                    "width": 2
+                },
+                "type": "circle",
+                "yref": "y",
+                "opacity": 0.3,
+                "fillcolor": "rgb(213, 70, 70)"
+            }
+        ],
+        "dragmode": "select"
+    },
+    "frames": []
+  }

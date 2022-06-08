@@ -1,0 +1,48 @@
+[
+    {
+      "submissionType" : "image",
+      "content_type" : "image",
+      "submissionTitle" : "Немцы представили автоматическую перчатку-усилитель и еще текст который прячем в этом виде",
+      "data" : "http://cdn.theanimals.pics/pictures/wallpoper.com/images/00/39/13/26/nature-animals_00391326.jpg",
+      "submissionText" : "Ранее, представители компании Samsung на пресс-конференции высказали свои намерения выпустить авторскую модель недорого планшета в ближайшее время. Много информации не было предано огласке, однако известно, что назвали уже грядущую новинку Samsung Galaxy Tab 3.7.0 и приблизительную стоимость в 200 долларов США."
+    },
+    {
+      "submissionType" : "ev",
+      "content_type" : "event", 
+      "dateTime" : "Октября 2013 в 14:25",
+      "location" : "Tallinn Bravo Club",
+      "data" : "http://cdn.theanimals.pics/pictures/wallpoper.com/images/00/39/13/26/nature-animals_00391326.jpg",
+      "submissionText" : "Ранее, представители компании Samsung на пресс-конференции высказали свои намерения выпустить авторскую модель недорого планшета в ближайшее время. Много информации не было предано огласке, однако известно, что назвали уже грядущую новинку Samsung Galaxy Tab 3.7.0 и приблизительную стоимость в 200 долларов США."
+    },
+    {
+      "submissionType" : "ar",
+      "content_type" : "article",
+      "submissionTitle" : "Pupils begin 'tough' new curriculum",
+      "submissionText" : "Ранее, представители компании Samsung на пресс-конференции высказали свои намерения выпустить авторскую модель недорого планшета в ближайшее время. Много информации не было предано огласке, однако известно, что назвали уже грядущую новинку Samsung Galaxy Tab 3.7.0 и приблизительную стоимость в 200 долларов США."
+    },
+    {
+      "submissionType" : "ad",
+      "content_type" : "ad", 
+      "valuePrice" : "€35",
+      "valueCents" : "00",
+      "data" : "http://cdn.theanimals.pics/pictures/wallpoper.com/images/00/39/13/26/nature-animals_00391326.jpg",
+      "submissionText" : "Ранее, представители компании Samsung на пресс-конференции высказали свои намерения выпустить авторскую модель недорого планшета в ближайшее время. Много информации не было предано огласке, однако известно, что назвали уже грядущую новинку Samsung Galaxy Tab 3.7.0 и приблизительную стоимость в 200 долларов США."
+    },
+    {
+      "submissionType" : "discount",
+      "content_type" : "discount", 
+      "valuePrice" : "€35",
+      "valueCents" : "00",
+      "valuePercent" : "20",
+      "data" : "http://cdn.theanimals.pics/pictures/wallpoper.com/images/00/39/13/26/nature-animals_00391326.jpg",
+      "submissionText" : "Ранее, представители компании Samsung на пресс-конференции высказали свои намерения выпустить авторскую модель недорого планшета в ближайшее время. Много информации не было предано огласке, однако известно, что назвали уже грядущую новинку Samsung Galaxy Tab 3.7.0 и приблизительную стоимость в 200 долларов США."
+    },
+    {
+      "submissionType" : "ev",
+      "content_type" : "event", 
+      "dateTime" : "Октября 2013 в 14:25",
+      "location" : "Tallinn Bravo Club",
+      "data" : "http://02varvara.files.wordpress.com/2010/11/01n-animal-families.jpg",
+      "submissionText" : "Ранее, представители компании Samsung на пресс-конференции высказали свои намерения выпустить авторскую модель недорого планшета в ближайшее время. Много информации не было предано огласке, однако известно, что назвали уже грядущую новинку Samsung Galaxy Tab 3.7.0 и приблизительную стоимость в 200 долларов США."
+    }
+]

@@ -1,0 +1,61 @@
+<div class="nav-wrapper" >
+	<a  class="js-nav-toggle">
+		<span></span>
+	</a>
+	<nav role="navigation">
+		<div class="nav-toggle">
+			<span class="nav-back"></span>
+			<span class="nav-title"> {{json[0].menufirst.title}} </span>
+			<span class="nav-close"></span>
+		</div>
+		<ul>
+			<li class="has-dropdown">
+				<a href="#">{{json[0].menufirst.title}}</a>
+				<ul>
+					<li><a  (click)="scrollToId('link1')" class="js-nav-toggle">{{json[0].menufirst.submenu.item1}}</a></li>
+					<li><a (click)="scrollToId('link2')"  class="js-nav-toggle">{{json[0].menufirst.submenu.item2}}</a></li>
+					<li><a href="#0" class="js-nav-toggle">{{json[0].menufirst.submenu.item3}}</a></li>
+					<li><a href="#0" class="js-nav-toggle">{{json[0].menufirst.submenu.item4}}</a></li>
+				</ul>
+			</li>
+			<li class="has-dropdown">
+				<a href="#">{{json[0].menusecond.title}}</a>
+				<ul>
+					<li><a href="#">{{json[0].menusecond.submenu.item1}}</a></li>
+					<li><a href="#">{{json[0].menusecond.submenu.item2}}</a></li>
+					<li><a href="#">{{json[0].menusecond.submenu.item3}}</a></li>
+					<li><a href="#">{{json[0].menusecond.submenu.item4}}</a></li>
+				</ul>
+			</li>
+			<li class="has-dropdown">
+				<a href="#">{{json[0].menuthird.title}}</a>
+				<ul>
+					<li><a href="#">{{json[0].menuthird.submenu.item1}}</a></li>
+					<li><a href="#">{{json[0].menuthird.submenu.item2}}</a></li>
+					<li><a href="#">{{json[0].menuthird.submenu.item3}}</a></li>
+					<li><a href="#">{{json[0].menuthird.submenu.item4}}</a></li>
+				</ul>
+			</li>
+
+			<li class="has-dropdown">
+				<a href="#">{{json[0].menuthird.title}}</a>
+				<ul>
+					<li><a href="#">{{json[0].menuthird.submenu.item1}}</a></li>
+					<li><a href="#">{{json[0].menuthird.submenu.item2}}</a></li>
+					<li><a href="#">{{json[0].menuthird.submenu.item3}}</a></li>
+					<li><a href="#">{{json[0].menuthird.submenu.item4}}</a></li>
+				</ul>
+			</li>
+
+			<li class="has-dropdown">
+				<a href="#">{{json[0].menufour.title}}</a>
+				<ul>
+					<li><a href="#">{{json[0].menufour.submenu.item1}}</a></li>
+					<li><a href="#">{{json[0].menufour.submenu.item2}}</a></li>
+					<li><a href="#">{{json[0].menufour.submenu.item3}}</a></li>
+					<li><a href="#">{{json[0].menufour.submenu.item4}}</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+</div>

@@ -1,0 +1,48 @@
+
+
+<div class="container flex_column" id="link2">
+
+
+
+  <h1 class="text-center title" id="link1">Index of Contributions to Planetary Well-being (ICP)</h1>
+
+  <div class="row">
+	  <div class="col-md-12 col-lg-12 pad0">  
+		  <select class="form-control width12" [(ngModel)]="selectedValue">
+		<option value="0" selected>Chart1</option>
+		<option value="1">Chart2</option>
+		<option value="2">Chart3</option>
+	  </select>
+	</div>
+  </div>
+
+
+  <div class="chart_container">
+
+    <div class="flex_center  animated animate__slideInLeft " *ngIf="selectedValue ==0">
+      <div class="flex_column">
+        <span class="text-center chart_title"> Contributions by the biggest 20 contributors in 1992</span>
+        <plotly-plot [data]="graph5.data" [useResizeHandler]="true" class="chart flex_center"></plotly-plot>
+      </div>
+    </div>
+
+    <div class="flex_center animated animate__slideInLeft" *ngIf="selectedValue ==1">
+      <div class="flex_column">
+        <span class="text-center chart_title"> Percent change from 1992 to 2019 in 20 highest performers</span>
+        <plotly-plot [data]="graph55.data" [useResizeHandler]="true" class="chart flex_center"></plotly-plot>
+      </div>
+    </div>
+
+	<div class="flex_center animated animate__slideInLeft" *ngIf="selectedValue ==2">
+		<div class="flex_column">
+		  <span class="text-center chart_title"> Percent change from 1992 to 2019 in 20 highest performers</span>
+		  <plotly-plot [data]="graph555.data" [useResizeHandler]="true" class="chart flex_center"></plotly-plot>
+		</div>
+	  </div>
+
+  </div>
+</div>
+
+
+
+

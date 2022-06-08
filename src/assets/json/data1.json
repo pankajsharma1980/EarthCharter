@@ -1,0 +1,46 @@
+{
+  "cnt": 1,
+  "list1": [
+    {
+      "coord": {
+        "lon": 79.8478,
+        "lat": 6.9319
+      },
+      "sys": {
+        "country": "LKffffffffffffff",
+        "timezone": 19800,
+        "sunrise": 1651883117,
+        "sunset": 1651927743
+      },
+      "weather": [
+        {
+          "id": 803,
+          "main": "Clouds",
+          "description": "broken clouds",
+          "icon": "04d"
+        }
+      ],
+      "main": {
+        "temp": 25.97,
+        "feels_like": 25.97,
+        "temp_min": 25.97,
+        "temp_max": 25.97,
+        "pressure": 1008,
+        "sea_level": 1008,
+        "grnd_level": 1007,
+        "humidity": 79
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 4.63,
+        "deg": 259
+      },
+      "clouds": {
+        "all": 84
+      },
+      "dt": 1651889346,
+      "id": 1248991,
+      "name": "Colombo"
+    }
+  ]
+}

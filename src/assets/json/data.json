@@ -1,0 +1,20 @@
+{
+  "list": [
+    {
+      "sys": {
+        "type": "car",
+        "country": "Vivek Asthana",
+        "timezone": 19800,
+        "price": 1651883117,
+        "quantity": 1651927743,
+        "weather": {
+          "description": "broken clouds"
+        }
+      },
+      "data": {
+        "image1": "assets/img/slide1-bg1.webp",
+        "video": "../../assets/background_video/190915_A_04_Drone_17.mp4"
+      }
+    }
+  ]
+}

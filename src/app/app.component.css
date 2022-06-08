@@ -1,0 +1,166 @@
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+html, body {
+    overflow-x: hidden !important;
+}
+
+
+
+.container {
+    overflow: hidden;
+}
+
+header,
+section {
+    width: 100%;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure,
+p {
+    margin: 0;
+}
+
+h1 {
+    font-family: "roboto_bold";
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "roboto_black";
+}
+
+@font-face {
+    font-family: "roboto_light";
+    src: url('../font/Roboto-Light.ttf') format('TrueType');
+    /* Global values */
+    font-size-adjust: inherit;
+    font-size-adjust: initial;
+    font-size-adjust: revert;
+    font-size-adjust: unset;
+}
+
+@font-face {
+    font-family: "roboto_bold";
+    src: url('../font/Roboto-Bold.ttf') format('TrueType');
+    /* Global values */
+    font-size-adjust: inherit;
+    font-size-adjust: initial;
+    font-size-adjust: revert;
+    font-size-adjust: unset;
+}
+
+@font-face {
+    font-family: "roboto_italic";
+    src: url('../font/Roboto-Italic.ttf') format('TrueType');
+    /* Global values */
+    font-size-adjust: inherit;
+    font-size-adjust: initial;
+    font-size-adjust: revert;
+    font-size-adjust: unset;
+}
+
+@font-face {
+    font-family: "roboto_black";
+    src: url('../font/Roboto-Black.ttf') format('TrueType');
+    /* Global values */
+    font-size-adjust: inherit;
+    font-size-adjust: initial;
+    font-size-adjust: revert;
+    font-size-adjust: unset;
+}
+
+@font-face {
+    font-family: "roboto_regular";
+    src: url('../font/Roboto-Regular.ttf') format('TrueType');
+    /* Global values */
+    font-size-adjust: inherit;
+    font-size-adjust: initial;
+    font-size-adjust: revert;
+    font-size-adjust: unset;
+}
+
+@font-face {
+    font-family: "roboto_medium";
+    src: url('../font/Roboto-Light.ttf') format('TrueType');
+    /* Global values */
+    font-size-adjust: inherit;
+    font-size-adjust: initial;
+    font-size-adjust: revert;
+    font-size-adjust: unset;
+}
+
+/* ---------------- For Animation on Scroll ---------------- */
+.slideanim {
+    visibility: hidden;
+    visibility: visible\9;
+    /*For old IE browsers IE6-8 */
+}
+
+.slideanim.slide {
+    visibility: visible;
+    animation: slide 1s;
+}
+
+.slideanim::after {
+    /* useful when its child elements are float:left; */
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+.top_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: auto;
+    /* padding: 0 3.75rem 0 3.75rem; */
+}
+
+
+.container {
+    padding: 0 !important;
+    width: 100% !important;
+}
+
+.section_inner1 {
+    display: table;
+    width: 100%;
+    height: 50%;
+}
+
+.chart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

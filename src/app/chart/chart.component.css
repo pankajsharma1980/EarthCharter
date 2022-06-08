@@ -1,0 +1,10 @@
+
+.flex_row {
+    display: flex;
+    flex-direction: row;
+}
+.second-class {
+
+    color: red;
+
+}

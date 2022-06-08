@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+
+
+
+	<div class="container">
+		<section class="top_container">
+			<!-- <section class="section_inner1">
+					<app-header></app-header>
+				</section> -->
+			<section class="section_inner1">
+				<app-header></app-header>
+				<app-video></app-video>
+			</section>
+
+			<section class="container slideanim">
+				<router-outlet></router-outlet>
+			</section>
+
+			<section class="container slideanim">
+				<app-google-form></app-google-form>
+			</section>
+
+			<section class="container slideanim">
+				<app-footer></app-footer>
+			</section>
+		</section>
+		<!-- <div class="wrapper" style="width:50%;">
+			<owl-carousel-o [options]="customOptions">
+		  
+			  <ng-container *ngFor="let slide of apiData">
+				<ng-template class="slide" carouselSlide [id]="slide.id">
+				  <img [src]="slide.url" [alt]="slide.id" [title]="slide.id">
+				</ng-template>
+			  </ng-container>
+		  
+			</owl-carousel-o>  
+		  </div> -->
+
+		<!-- <div id="exTab2" class="container">
+			<ul class="nav nav-tabs">
+				<li class="active">
+					<a href="#1" data-toggle="tab">Tab1</a>
+				</li>
+				<li><a href="#2" data-toggle="tab">Tab2</a>
+				</li>
+			</ul>
+	
+			<div class="tab-content ">
+				<div class="tab-pane active" id="1">
+					<plotly-plot [data]="graph5.data" [useResizeHandler]="true" class="chart"></plotly-plot>
+				</div>
+				<div class="tab-pane" id="2">
+					<plotly-plot [data]="graph55.data" [useResizeHandler]="true" class="chart"></plotly-plot>
+				</div>
+			</div>
+		</div> -->
+
+	</div>
+	
+</body>
+</html>

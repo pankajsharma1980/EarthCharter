@@ -1,0 +1,54 @@
+<section class="card_container" >
+    <h1 class="text-center title" id="link1"> Contributions to the Well-being of our Planet</h1>
+    <div class="row marg0" > 
+        <div class="flex_row">
+            <article class="card col-sm-6 col-md-3 effect5">
+                <header class="card__thumb">     
+                    <img [src]="json[0].cardfirst.image.src" />
+                </header>
+                <div class="card__body">
+                    <h2 class="card__title"><a href="#">{{json[0].cardfirst.title}}</a></h2>
+                    <p class="card__description">{{json[0].cardfirst.description.para}} 
+                    </p>
+                    <span> 	<a routerLinkActive="active" routerLink="/Chart">Read More..</a> </span>
+                </div>
+            </article>
+            <article class="card col-sm-6 col-md-3">
+                <header class="card__thumb">     
+                    <img src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" />
+                </header>
+                <div class="card__body">
+                    <h2 class="card__title"><a href="#">{{json[0].cardsecond.title}}</a></h2>
+                    <p class="card__description">{{json[0].cardsecond.description.para}} 
+                    </p>
+                    <span> 	<a routerLinkActive="active" routerLink="/Chart">Read More..</a></span>
+                </div>
+            </article>
+            <article class="card col-sm-6 col-md-3">
+                <header class="card__thumb">     
+                    <img src="https://mdbootstrap.com/img/Photos/Others/images/14.jpg" />
+                </header>
+                <div class="card__body">
+                    <h2 class="card__title"><a href="#">{{json[0].cardthird.title}}</a></h2>
+                    <p class="card__description">{{json[0].cardthird.description.para}} 
+                    </p>
+                    <span> 	<a routerLinkActive="active" routerLink="/Chart">Read More..</a></span>
+                </div>
+            </article>
+            <article class="card col-sm-6 col-md-3">
+                <header class="card__thumb">     
+                    <img src="https://mdbootstrap.com/img/Photos/Others/images/12.jpg" />
+                </header>
+                <div class="card__body">
+                    <h2 class="card__title"><a href="#">{{json[0].cardfour.title}}</a></h2>
+                    <p class="card__description">{{json[0].cardfour.description.para}} 
+                    </p>
+                    <span> 	<a routerLinkActive="active" routerLink="/Chart">Read More..</a></span>
+                </div>
+            </article>
+
+        </div>
+    </div>
+
+
+</section>

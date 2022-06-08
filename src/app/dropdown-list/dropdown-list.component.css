@@ -1,0 +1,112 @@
+.container {
+  display: block;
+  width: 100%;
+  height: auto !important;
+}
+
+.chart {
+  width: 100vw !important;
+}
+
+.container .title {
+  font-family: "roboto_black";
+  font-size: 36px;
+  padding: 4vw 4vw 0;
+  text-shadow: 0px 15px 5px rgba(0, 0, 0, 0.1),
+    10px 20px 5px rgba(0, 0, 0, 0.05),
+    -10px 20px 5px rgba(0, 0, 0, 0.05);
+}
+
+.chart_container {
+  width: 70vw !important;
+}
+
+.chart_container .chart_title {
+  font-family: "roboto_black";
+  font-size: 18px;
+  padding: 1vw;
+  display: block;
+  width: 100%;
+}
+
+.div_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex_column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex_center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.pos_relative {
+  position: relative;
+  left: 3%;
+
+}
+
+.animated {
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+}
+
+
+@-webkit-keyframes slideInLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.animate__slideInLeft {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+}
+
+.pad0 {
+  padding: 0;
+}
+
+.width12 {
+  width: 100%;
+  min-width: 110px;
+  padding-left: 4px;
+}
+
+
+.js-plotly-plot .plotly .modebar .js-plotly-plot .plotly .modebar-btn {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+
+

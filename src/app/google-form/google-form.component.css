@@ -1,0 +1,79 @@
+.feedback-bg {
+    /* background-image: url("/assets/img/google-form-bg.png"); */
+    max-width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .Google-form {
+min-width: 350px;;
+  }
+
+  .transform-center-parent {
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+.transform-center {
+    position: relative;
+    top: 50%;
+    transform: translateY(70%);
+}
+
+  .Google-form-heading  {
+    font-family: "roboto_regular";
+    padding: 0px 0px 0px 20px;
+    align-items:center
+  }
+
+  .Google-form-heading h3  {
+      color: #47D003;
+     
+}
+.Google-form-heading span  {
+    color: #ffffff;
+}
+
+.Google-form-heading .feedback-btn {
+    font-family: "roboto_regular";
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 4px;
+    transition: 0.5s;
+    margin-top: 10px;
+    background: #47D003;
+    border: 2px solid #47D003;
+    color: #fff;
+    margin-top: 15px;
+}
+.Google-form-heading .feedback-btn:hover {
+  text-decoration: none;
+}
+
+.Google-form-heading .feedback-btn a {
+    text-decoration: none;
+}
+
+.Google-form-heading .feedback-btn a:hover {
+  text-decoration: none;
+}
+  
+@media (min-width: 480px) {
+    .Google-form { height: 350px; 
+    }
+}
+
+@media (min-width: 768px)  {
+    .Google-form { height: 350px; 
+    }
+}
+
+@media (min-width: 992px) {
+    .Google-form { height: 350px; }
+}
+
+  

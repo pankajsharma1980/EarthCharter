@@ -1,0 +1,36 @@
+{
+    "card": [
+      {
+        "cardfirst": {
+          "title": "Our interventions that contribute to planetary well-being",
+          "image": {
+            "src":"https://mdbootstrap.com/img/Photos/Others/images/13.jpg"
+          },
+          "description": {
+            "para":"Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit."
+          }
+        },
+
+        "cardsecond": {
+            "title": "Ethical values practiced across our planet",
+            "description": {
+              "para":"Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit."
+            }
+          },
+
+          "cardthird": {
+            "title": "Actions/responses that result from the practice of ethical values",
+            "description": {
+              "para":"Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit."
+            }
+          },
+
+          "cardfour": {
+            "title": "Cultural practices, actions, and policies across the world",
+            "description": {
+              "para":"Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit."
+            }
+          }
+      }
+    ]
+  }
