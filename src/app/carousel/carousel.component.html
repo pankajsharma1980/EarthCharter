@@ -1,76 +1,58 @@
-<!-- <app-header></app-header> 
-<app-video></app-video>  -->
+<section id="hero" class="d-flex flex-column justify-content-end align-items-center">
+  <div id="heroCarousel" data-bs-interval="30000" class="container carousel carousel-fade" data-bs-ride="carousel">
+    <!-- Slide 2 -->
+    <div class="carousel-item active">
+      <div class="carousel-container">
+        <video loop muted autoplay oncanplay="this.play()" onloadedmetadata="this.muted = false">
+          <source src="assets/background_video/video.mp4" type="video/mp4">
+        </video>
+        <!-- <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2> -->
 
-<!-- <video autoplay muted loop id="myVideo">
-	<source src="../../assets/video/Pexels Videos 2223417.mp4" type="video/mp4">
-	Your browser does not support HTML5 video.
-  </video> -->
+        <p class="animate__animated animate__fadeInUp">“Each tree not only has a different size and shape, but color and
+          character, and each board from each tree has a distinctly different personality.”
+          <span class="d-block font-italic">— Mira Nakashima</span>
+        </p>
+        <!-- <a (click)="scrollToId('link1')" class="animate__animated animate__fadeInUp scrollto"> <span
+            class="carousel-control-bottom-icon bx bx-chevron-down" aria-hidden="true"></span></a> -->
+      </div>
+    </div>
+    <!-- Slide 3 -->
+    <div class="carousel-item">
+      <div class="carousel-container">
+        <video loop muted autoplay oncanplay="this.play()" onloadedmetadata="this.muted = false">
+          <source src="assets/background_video/190915_A_04_Drone_09.mp4" type="video/mp4">
+        </video>
+        <!-- <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2> -->
+        <p class="animate__animated animate__fadeInUp">“Each tree not only has a different size and shape, but color and
+          character, and each board from each tree has a distinctly different personality.”.
+        </p><span class="d-block small">— Mira Nakashima</span>
 
-<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+        <!-- <a (click)="scrollToId('link1')" class="animate__animated animate__fadeInUp scrollto"> <span
+            class="carousel-control-bottom-icon bx bx-chevron-down" aria-hidden="true"></span></a> -->
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="carousel-container">
+        <video loop muted autoplay oncanplay="this.play()" onloadedmetadata="this.muted = false">
+          <source src="assets/background_video/210329_06B_Bali_1080p_005.mp4" type="video/mp4">
+        </video>
+        <!-- <h2 class="animate__animated animate__fadeInDown">Welcome to Carousel item</h2> -->
+        <p class="animate__animated animate__fadeInUp">“Each tree not only has a different size and shape, but color and
+          character, and each board from each tree has a distinctly different personality.”
+          <span class="d-block font-italic">— Mira Nakashima</span>
+        </p>
+        <!-- <a (click)="scrollToId('link1')" class="animate__animated animate__fadeInUp scrollto"> <span
+            class="carousel-control-bottom-icon bx bx-chevron-down" aria-hidden="true"></span></a> -->
+      </div>
+    </div>
+ 
+  
+    <!-- <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
+      </a>
 
-	<!-- Overlay -->
-	<!-- <div class="overlay"></div>  -->
-
-	<!-- Indicators -->
-	<ol class="carousel-indicators">
-		<li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
-		<!-- <li data-target="#bs-carousel" data-slide-to="1"></li>
-		<li data-target="#bs-carousel" data-slide-to="2"></li> -->
-	</ol>
-
-	<!-- Wrapper for slides -->
-	<!-- Wrapper for Slides -->
-	<div class="carousel-inner">
-		<div class="item active">
-			<!-- Set the first background image using inline CSS below. -->
-			<div class="fill"
-				style="background-image:url('../assets/img/slide1-bg1.webp'); background-attachment: fixed; background-size:100% 100%; background-repeat:no-repeat;">
-			</div>
-			<!-- <video src="../../assets/video/Pexels Videos 2223417.mp4" autoplay loop  playsinline muted></video> -->
-			<div class="carousel-caption">
-				<h2 class="animated  animate__fadeInLeft">Caption Animation1</h2>
-				<p class="animated  animate__fadeInLeft">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-				<p class="animated  animate__fadeInLeft"><a href="#"
-						class="btn btn-transparent btn-rounded btn-large">Learn More</a></p>
-			</div>
-		</div>
-		<div class="item slides">
-			<!-- Set the second background image using inline CSS below. -->
-			<!-- <div class="fill">
-				<video src="https://css-tricks-post-videos.s3.us-east-1.amazonaws.com/708209935.mp4" autoplay loop
-				playsinline muted></video>
-			</div> -->
-			<div class="fill"
-				style="background-image:url('../assets/img/slide2-bg-1.webp'); background-attachment: fixed; background-size:100% 100%; background-repeat:no-repeat;">
-			</div>
-			<div class="carousel-caption">
-				<h2 class="animated animate__fadeInLeft">Caption Animation2</h2>
-				<p class="animated animate__fadeInLeft">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-				<p class="animated animate__fadeInLeft"><a href="#"
-						class="btn btn-transparent btn-rounded btn-large">Learn More</a></p>
-			</div>
-		</div>
-		<div class="item slides">
-			<!-- Set the third background image using inline CSS below. -->
-
-			<div class="fill"
-				style="background-image:url('../assets/img/slide3-bg-1.webp'); background-attachment: fixed; background-size:100% 100%; background-repeat:no-repeat;">
-			</div>
-
-			<div class="carousel-caption">
-				<h2 class="animated animate__fadeInLeft">Caption Animation3</h2>
-				<p class="animated animate__fadeInLeft">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-				<p class="animated animate__fadeInLeft"><a href="#"
-						class="btn btn-transparent btn-rounded btn-large">Learn More</a></p>
-			</div>
-		</div>
-	</div>
-
-	<!-- Controls -->
-	<a class="left carousel-control" href="#bs-carousel" data-slide="prev">
-		<span class="icon-prev"></span>
-	</a>
-	<a class="right carousel-control" href="#bs-carousel" data-slide="next">
-		<span class="icon-next"></span>
-	</a>
-</div>
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
+      </a> -->
+  </div>
+</section>

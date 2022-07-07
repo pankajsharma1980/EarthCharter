@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { LiveSearchService } from '../live-search.service';
 import { HttpClient } from '@angular/common/http';
-import { Injectable } from '@angular/core';
+import { Injectable, HostListener } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
 import { ScrollService } from '../../_services/scroll.service';
 
@@ -17,7 +17,8 @@ import { ScrollService } from '../../_services/scroll.service';
 export class HeaderComponent implements OnInit {
 
   json: any;
-  nav = []
+  nav = [];
+  scrollVal:boolean = false;
 
   constructor(public searchJson: LiveSearchService, private sanitizer: DomSanitizer, private http: HttpClient,private scrollService: ScrollService) {
   }
@@ -38,5 +39,15 @@ scrollToId(id: string) {
 
 scrollToElement(element: HTMLElement) {
   this.scrollService.scrollToElement(element);
+}
+
+@HostListener("window:scroll", ['$event'])
+scrollMe(event:any) {
+  if (window.scrollY > 100) {
+    this.scrollVal = true;
+  } else {
+    this.scrollVal = false;
+  }
+  
 }
 }

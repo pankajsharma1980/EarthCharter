@@ -60,6 +60,8 @@ export class AppComponent implements OnInit {
     }
   };
 
+
+  
   constructor (private scrollService: ScrollService, private router: Router,private http: HttpClient) {}
 
   scrollToId(id: string) {
@@ -84,5 +86,7 @@ export class AppComponent implements OnInit {
 
   //   http$.subscribe(res => (this.apiData = res), err => throwError(err));
   // }
+
+  
 
 }

@@ -4,6 +4,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
+import { CarouselComponent } from './carousel/carousel.component';
 import { LiveSearchService } from './live-search.service';
 import { VideoComponent } from './video/video.component';
 import { ChartCarouselComponent } from './chart-carousel/chart-carousel.component';
@@ -21,6 +22,7 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
     VideoComponent,
     ChartCarouselComponent,
     GoogleFormComponent,
+    CarouselComponent,
   ],
   
   imports: [

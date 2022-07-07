@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ScrollService } from '../../_services/scroll.service';
 
 @Component({
   selector: 'app-carousel',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CarouselComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(private scrollService: ScrollService) {
+  } 
   ngOnInit(): void {
   }
 
+  scrollToId(id: string) {
+    console.log("element id : ", id);
+    this.scrollService.scrollToElementById(id);
+  }
 }
