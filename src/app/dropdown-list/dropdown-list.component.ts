@@ -18,14 +18,20 @@ export class DropdownListComponent implements OnInit {
   
   selectedValue:any;
   json: any;
-  liveData= [];
-  liveDataa: any;
-  liveDataaa: any;
+  //liveData= [];
+  //liveDataa: any;
+  //liveDataaa: any;
   list = []
   thumbnail: any;
-  graph55: any;
-  graph555: any;
-  graph5: any
+  chart2: any;
+  chart3: any;
+  chart1: any
+  chart4: any;
+  chart5: any;
+  chart7:  any;
+  chart6:  any;
+ ;
+ ;
   constructor(public searchJson: LiveSearchService, private sanitizer: DomSanitizer, private http: HttpClient) {
   }
   ngOnInit(): void {
@@ -38,22 +44,26 @@ export class DropdownListComponent implements OnInit {
     // });
 
     this.selectedValue="0";
-    this.setNavigationData1();
-    this.setNavigationData11();
-    this.setNavigationData111();
+    this.setNavigationDataChart1();
+    this.setNavigationDataChart2();
+    this.setNavigationDataChart3();
+    this.setNavigationDataChart4();
+    this.setNavigationDataChart5();
+    this.setNavigationDataChart6();
+    this.setNavigationDataChart7();
     
   }
   
 
-  setNavigationData1() {
+  setNavigationDataChart1() {
 
-    this.searchJson.getCountriesData1().subscribe((data: any) => {
+    this.searchJson.getCountriesChart1().subscribe((data: any) => {
 
-       this.liveData =  data;
+       //this.liveData =  data;
 
-       this.graph5 = {
+       this.chart1 = {
 
-          data: this.liveData
+          data: data
 
 
 
@@ -65,15 +75,52 @@ export class DropdownListComponent implements OnInit {
 
  };
 
- setNavigationData11() {
+ setNavigationDataChart2() {
 
-  this.searchJson.getCountriesData11().subscribe((data: any) => {
+  this.searchJson.getCountriesChart2().subscribe((data: any) => {
 
-     this.liveDataa =  data;
+     //this.liveDataa =  data;
 
-     this.graph55 = {
+     this.chart2 = {
 
-        data: this.liveDataa
+        data: data
+
+
+      };
+
+  });
+
+
+
+};
+
+setNavigationDataChart3() {
+
+  this.searchJson.getCountriesChart3().subscribe((data: any) => {
+
+     //this.liveDataaa =  data;
+
+     this.chart3 = {
+
+        data: data
+
+
+      };
+
+  });
+
+
+
+};
+setNavigationDataChart4() {
+
+  this.searchJson.getCountriesChart4().subscribe((data: any) => {
+
+    // this.liveDataaa =  data;
+
+     this.chart4 = {
+
+        data: data
 
 
 
@@ -85,15 +132,15 @@ export class DropdownListComponent implements OnInit {
 
 };
 
-setNavigationData111() {
+setNavigationDataChart5() {
 
-  this.searchJson.getCountriesData111().subscribe((data: any) => {
+  this.searchJson.getCountriesChart5().subscribe((data: any) => {
 
-     this.liveDataaa =  data;
+     //this.liveDataaa =  data;
 
-     this.graph555 = {
+     this.chart5 = {
 
-        data: this.liveDataaa
+        data: data
 
 
 
@@ -104,7 +151,46 @@ setNavigationData111() {
 
 
 };
- 
+
+setNavigationDataChart6() {
+
+  this.searchJson.getCountriesChart6().subscribe((data: any) => {
+
+     //this.liveDataaa =  data;
+
+     this.chart6 = {
+
+        data: data
+
+
+
+      };
+
+  });
+
+
+
+};
+
+setNavigationDataChart7() {
+
+  this.searchJson.getCountriesChart7().subscribe((data: any) => {
+
+     //this.liveDataaa =  data;
+
+     this.chart7 = {
+
+        data: data
+
+
+
+      };
+
+  });
+
+
+
+};
    
 }
 

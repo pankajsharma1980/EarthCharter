@@ -17,21 +17,45 @@ constructor(private http: HttpClient) { }
   public getCountriesData(): Observable<any> {
     return this.http.get('assets/json/config.json', {responseType: 'json'});
 }
-public getCountriesData1(): Observable<any> {
+public getCountriesChart1(): Observable<any> {
 
-  return this.http.get('assets/json/Latest.json', {responseType: 'json'});
-
-}
-
-public getCountriesData11(): Observable<any> {
-
-  return this.http.get('assets/json/Latest1.json', {responseType: 'json'});
+  return this.http.get('assets/json/Chart1.json', {responseType: 'json'});
 
 }
 
-public getCountriesData111(): Observable<any> {
+public getCountriesChart2(): Observable<any> {
 
-  return this.http.get('assets/json/graph.json', {responseType: 'json'});
+  return this.http.get('assets/json/Chart2.json', {responseType: 'json'});
+
+}
+
+public getCountriesChart3(): Observable<any> {
+
+  return this.http.get('assets/json/Chart3.json', {responseType: 'json'});
+
+}
+
+public getCountriesChart4(): Observable<any> {
+
+  return this.http.get('assets/json/Chart4.json', {responseType: 'json'});
+
+}
+
+public getCountriesChart5(): Observable<any> {
+
+  return this.http.get('assets/json/Chart5.json', {responseType: 'json'});
+
+}
+
+public getCountriesChart6(): Observable<any> {
+
+  return this.http.get('assets/json/Chart6.json', {responseType: 'json'});
+
+}
+
+public getCountriesChart7(): Observable<any> {
+
+  return this.http.get('assets/json/Chart7.json', {responseType: 'json'});
 
 }
 

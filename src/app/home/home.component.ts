@@ -22,6 +22,10 @@ export class HomeComponent implements OnInit {
   graph5: any;
   graph55: any;
   graph555: any;
+  chart4: any;
+  chart5: any;
+  chart6: any;
+  chart7: any;
   // graph5!: { data: any; };
   
   constructor(private router: Router, public searchJson: LiveSearchService, private sanitizer: DomSanitizer, private http: HttpClient) {
@@ -36,12 +40,16 @@ export class HomeComponent implements OnInit {
     // });
 
     
-    this.setNavigationData1();
-    this.setNavigationData11();
-    this.setNavigationData111();
+    //this.setNavigationData1();
+    //this.setNavigationData11();
+    //this.setNavigationData111();
+    //this.setNavigationDataChart4();
+    //this.setNavigationDataChart5();
+    //this.setNavigationDataChart6();
+    //this.setNavigationDataChart7();
     
   }
-  
+  /*
 
   setNavigationData1() {
 
@@ -102,6 +110,88 @@ setNavigationData111() {
 
 
 };
+
+setNavigationDataChart4() {
+
+  this.searchJson.getCountriesChart4().subscribe((data: any) => {
+
+    // this.liveDataaa =  data;
+
+     this.chart4 = {
+
+        data: data
+
+
+
+      };
+
+  });
+
+
+
+};
+
+setNavigationDataChart5() {
+
+  this.searchJson.getCountriesChart5().subscribe((data: any) => {
+
+     this.liveDataaa =  data;
+
+     this.chart5 = {
+
+        data: this.liveDataaa
+
+
+
+      };
+
+  });
+
+
+
+};
+
+setNavigationDataChart6() {
+
+  this.searchJson.getCountriesChart6().subscribe((data: any) => {
+
+     this.liveDataaa =  data;
+
+     this.chart6 = {
+
+        data: this.liveDataaa
+
+
+
+      };
+
+  });
+
+
+
+};
+
+setNavigationDataChart7() {
+
+  this.searchJson.getCountriesChart7().subscribe((data: any) => {
+
+     this.liveDataaa =  data;
+
+     this.chart7 = {
+
+        data: this.liveDataaa
+
+
+
+      };
+
+  });
+
+
+
+};
+
+*/
 
 
 }

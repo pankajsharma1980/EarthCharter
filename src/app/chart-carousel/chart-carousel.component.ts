@@ -24,12 +24,12 @@ export class ChartCarouselComponent implements OnInit {
 
   ngOnInit() {
 
-    this.setNavigationData1();
-    this.setNavigationData11();
+    //this.setNavigationData1();
+    //this.setNavigationData11();
   
   }
 
-  setNavigationData1() {
+  /*setNavigationData1() {
 
     this.searchJson.getCountriesData1().subscribe((data: any) => {
 
@@ -67,7 +67,7 @@ export class ChartCarouselComponent implements OnInit {
 
 
 
-  };
+  };*/
 
 }
 
