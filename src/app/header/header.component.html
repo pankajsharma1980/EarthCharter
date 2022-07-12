@@ -32,23 +32,23 @@
 					<li class="has-dropdown">
 						<a href="#">{{json[0].menusecond.title}}</a>
 						<ul>
-							<li><a href="#">{{json[0].menusecond.submenu.item1}}</a></li>
-							<li><a href="#">{{json[0].menusecond.submenu.item2}}</a></li>
-							<li><a href="#">{{json[0].menusecond.submenu.item3}}</a></li>
-							<li><a href="#">{{json[0].menusecond.submenu.item4}}</a></li>
+							<li><a (click)="scrollToId('index_contribution_plant')" class="js-nav-toggle">{{json[0].menusecond.submenu.item1}}</a></li>
+							<li><a (click)="scrollToId('index_contribution_life')" class="js-nav-toggle">{{json[0].menusecond.submenu.item2}}</a></li>
+							<li><a (click)="scrollToId('index_contribution_integrity')" class="js-nav-toggle">{{json[0].menusecond.submenu.item3}}</a></li>
+							<li><a (click)="scrollToId('index_contribution_justice')" class="js-nav-toggle">{{json[0].menusecond.submenu.item4}}</a></li>
 						</ul>
 					</li>
 					<li class="has-dropdown">
 						<a href="#">{{json[0].menuthird.title}}</a>
 						<ul>
-							<li><a href="#">{{json[0].menuthird.submenu.item1}}</a></li>
-							<li><a href="#">{{json[0].menuthird.submenu.item2}}</a></li>
-							<li><a href="#">{{json[0].menuthird.submenu.item3}}</a></li>
-							<li><a href="#">{{json[0].menuthird.submenu.item4}}</a></li>
+							<li><a (click)="scrollToId('Improving-contributions-planet')" class="js-nav-toggle">{{json[0].menuthird.submenu.item1}}</a></li>
+							<li><a (click)="scrollToId('Improving-contributions-life')" class="js-nav-toggle">{{json[0].menuthird.submenu.item2}}</a></li>
+							<li><a (click)="scrollToId('Improving-contributions-integrity')" class="js-nav-toggle">{{json[0].menuthird.submenu.item3}}</a></li>
+							<li><a (click)="scrollToId('Improving-contributions-justice')" class="js-nav-toggle">{{json[0].menuthird.submenu.item4}}</a></li>
 						</ul>
 					</li>
 
-					<li class="has-dropdown">
+					<!-- <li class="has-dropdown">
 						<a href="#">{{json[0].menuthird.title}}</a>
 						<ul>
 							<li><a href="#">{{json[0].menuthird.submenu.item1}}</a></li>
@@ -56,15 +56,15 @@
 							<li><a href="#">{{json[0].menuthird.submenu.item3}}</a></li>
 							<li><a href="#">{{json[0].menuthird.submenu.item4}}</a></li>
 						</ul>
-					</li>
+					</li> -->
 
 					<li class="has-dropdown">
 						<a href="#">{{json[0].menufour.title}}</a>
 						<ul>
-							<li><a href="#">{{json[0].menufour.submenu.item1}}</a></li>
-							<li><a href="#">{{json[0].menufour.submenu.item2}}</a></li>
-							<li><a href="#">{{json[0].menufour.submenu.item3}}</a></li>
-							<li><a href="#">{{json[0].menufour.submenu.item4}}</a></li>
+							<li><a (click)="scrollToId('Improve-understanding-planet')" class="js-nav-toggle">{{json[0].menufour.submenu.item1}}</a></li>
+							<li><a (click)="scrollToId('Improve-understanding-life')" class="js-nav-toggle">{{json[0].menufour.submenu.item2}}</a></li>
+							<li><a (click)="scrollToId('Improve-understanding-integrity')" class="js-nav-toggle">{{json[0].menufour.submenu.item3}}</a></li>
+							<li><a (click)="scrollToId('Improve-understanding-justice')" class="js-nav-toggle">{{json[0].menufour.submenu.item4}}</a></li>
 						</ul>
 					</li>
 				</ul>
