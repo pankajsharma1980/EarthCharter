@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 
 .footer {
-    background: #4a5562;
+    background: rgba(42, 44, 57, 0.9);
     padding: 0 0 30px 0;
     color: #fff;
     font-size: 14px;
@@ -11,8 +11,8 @@
 }
 
 footer .footer-top {
-    background: #515d6a;
-    padding: 30px 0 30px 0;
+    background: rgba(42, 44, 57, 0.4);
+    padding: 30px 0 0px 0;
 }
 
 .footer-info h3 {
@@ -20,7 +20,7 @@ footer .footer-top {
 }
 
 footer .footer-top .footer-info {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 footer .footer-top .footer-info h3 {
